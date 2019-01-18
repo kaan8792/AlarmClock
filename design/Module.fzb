@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Custom1.png">
+    <title>Module</title>
+    <instances>
+        <instance moduleIdRef="adafruit_2733c17b59ee58d6fb19255d43d47d62_1" modelIndex="6028" path="C:/Users/PC/Documents/Fritzing/parts/user/adafruit_2733c17b59ee58d6fb19255d43d47d62_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="keyes_7f310f9fdcd3e0c8ad5b1260a0d291d0_3" modelIndex="6205" path="C:/Users/PC/Documents/Fritzing/parts/user/keyes_7f310f9fdcd3e0c8ad5b1260a0d291d0_3.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

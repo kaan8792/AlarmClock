@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart House</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data:,"><style>html{font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}h1{color: #0F3376; padding: 2vh;}h2{color: #ad0a0a; padding: 2vh;}p{font-size: 1.5rem;}.button{display: inline-block; background-color: #e7bd3b; border: none;border-radius: 4px; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}.button2{background-color: #4286f4;}.satir{margin: 2px;}input{min-height: 25px}</style>
+</head>
+<body>
+	<h1>ESP Web Server</h1> 
+	<h2>Alarm Saatlerini Giriniz</h2>
+	<form action="/alarmChange" method="POST">
+		<div class="satir"><input type="number" name="aSaat" placeholder="Acilis Saat"></div>
+		<div class="satir"><input type="number" name="aDakika" placeholder="Acilis Dakika"></div>
+		<div class="satir"><input type="number" name="kSaat" placeholder="Kapanis Saat"></div>
+		<div class="satir"><input type="number" name="kDakika" placeholder="Kapanis Dakika"></div>
+		<input type="submit" value="Kaydet" class="button button2"></form>
+</body>
+</html>
